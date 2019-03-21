@@ -142,16 +142,16 @@ const kristynsCloset = [
 
   //Alien Attire
   // #1
-  kristynsCloset.splice(0,1);
-  const kristynsShoe = ["left shoe"];
+//   kristynsCloset.splice(0,1);
+//   const kristynsShoe = ["left shoe"];
 
-  //Dress 'em Up
-  // #1
-    let kristynsOutfit = [];
+//   //Dress 'em Up
+//   // #1
+//     let kristynsOutfit = [];
 
-    while (kristynsCloset.length > 0)
-    kristynsOutfit.push(kristynsCloset.splice(0, 3));
-    console.log(kristynsOutfit);
+//     while (kristynsCloset.length > 0)
+//     kristynsOutfit.push(kristynsCloset.splice(0, 3));
+//     console.log(kristynsOutfit);
 
 
     let thomsOutfit = [];
@@ -159,4 +159,25 @@ const kristynsCloset = [
     while (thomsCloset.length > 0)
     thomsOutfit.push(thomsCloset.splice(0,3));
     console.log(thomsOutfit);
+
+// Dirty Laundry
+// #1
+for (let i = 0; i < kristynsCloset.length; i++){
+    console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
+
+//Inventory
+// #1
+// let thomsInventory = [
+//     {
+//     shirts: "grey button-up", "dark grey button-up", "light blue button-up", "blue button-up"
+//     },
+//     {
+//     pants: "grey jeans", "jeans", "PJs"
+//     },
+//     {
+//     accessories: "wool mittens", "wool scarf", "raybans"
+//     },
+// ];
+
 
