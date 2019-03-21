@@ -74,3 +74,35 @@ jimHaff.push("Seoul","Sydney", "Tokyo");
 jimHaff.splice(2,1);
 
 
+//Yell at the Ninja Turtles
+// #1
+const ninja = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+// #2
+for (let i = 0; i < ninja.length; i++) {
+    ninja[i] = ninja[i].toUpperCase();
+}
+
+// #3
+// for (let i = 0; i < txt.length; i++) {
+//     let ch = ninja.fromCharCode(txt.charCodeAt(i);
+//     if (i % 2 == 1) {
+//         ch = ch.toUpperCase();
+//     } else {
+//         ch = ch.toLowerCase();
+//     }
+//     ninja =  ninja.concat(ch);
+// }
+// let alternateCase = function (s) {
+//     let ninja = s.toLowerCase().split("");
+//     for (let i = 0; i < ninja.length; i +=2) {
+//         ninja[i] = ninja[i].toUpperCase();
+//     }
+//     return ninja.join("");
+// };
+// console.log(alternateCase(;
+
+// //create an array for lowercase letters
+// //create an array for uppercase letters
+// //check is there an index of this current letter inside this array of all lowercase letter 
+// // vice versa
