@@ -106,3 +106,57 @@ for (let i = 0; i < ninja.length; i++) {
 // //create an array for uppercase letters
 // //check is there an index of this current letter inside this array of all lowercase letter 
 // // vice versa
+
+
+//Return of the closets
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  //Alien Attire
+  // #1
+  kristynsCloset.splice(0,1);
+  const kristynsShoe = ["left shoe"];
+
+  //Dress 'em Up
+  // #1
+    let kristynsOutfit = [];
+
+    while (kristynsCloset.length > 0)
+    kristynsOutfit.push(kristynsCloset.splice(0, 3));
+    console.log(kristynsOutfit);
+
+
+    let thomsOutfit = [];
+
+    while (thomsCloset.length > 0)
+    thomsOutfit.push(thomsCloset.splice(0,3));
+    console.log(thomsOutfit);
+
